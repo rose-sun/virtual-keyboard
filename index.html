@@ -3,7 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>JS Bin</title>
-    <link rel="stylesheet" href="//at.alicdn.com/t/font_2675115_xzicd4urju.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="//at.alicdn.com/t/font_2752370_wf0bugq5q4.js"></script>
+    <style type="text/css">
+      .icon {
+         width: 1em; height: 1em;
+         vertical-align: -0.15em;
+         fill: currentColor;
+         overflow: hidden;
+      }
+  </style>
   </head>
   <body>
     <div class="container">
@@ -35,7 +44,10 @@
           <span data-type="char" class="col-2">l</span>
         </div>
         <div class="row">
-          <span data-type="uppercase" class="col-3"><i class="iconfont icon-caps"></i></span>
+          <span data-type="uppercase" class="col-3"><svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-keyboard_icon_caps_unlock"></use>
+        </svg></span>
+        
           <span data-type="char" class="col-2">z</span>
           <span data-type="char" class="col-2">x</span>
           <span data-type="char" class="col-2">c</span>
@@ -43,7 +55,8 @@
           <span data-type="char" class="col-2">b</span>
           <span data-type="char" class="col-2">n</span>
           <span data-type="char" class="col-2">m</span>
-          <span data-type="backspace" class="col-3 "><i class="iconfont icon-backspace"></i></span>
+          <span data-type="backspace" class="col-3 "><svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-backspace1"></svg></span>
         </div>
         <div class="row">
           <span data-type="number" class="col-4">123</span>
@@ -84,7 +97,8 @@
           <span data-type="char" class="col-2">'</span>
           <span data-type="char" class="col-2">"</span>
           <span data-type="char" class="col-2">`</span>
-          <span data-type="backspace" class="col-3"><i class="iconfont icon-backspace"></i></span>
+          <span data-type="backspace" class="col-3"><svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-backspace1"></svg></span>
         </div>
         <div class="row">
           <span data-type="lowercase" class="col-4">ABC</span>
@@ -125,7 +139,8 @@
             <span data-type="char" class="col-2">'</span>
             <span data-type="char" class="col-2">"</span>
             <span data-type="char" class="col-2">`</span>
-            <span data-type="backspace" class="col-3"><i class="iconfont icon-backspace"></i></span>
+            <span data-type="backspace" class="col-3"><svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-backspace1"></svg></span>
           </div>
           <div class="row">
             <span data-type="lowercase" class="col-4">ABC</span>
@@ -158,7 +173,8 @@
             <span data-type="char" class="col-2">L</span>
           </div>
           <div class="row">
-            <span data-type="lowercase" class="col-3"><i class="iconfont icon-caps"></i></span>
+            <span data-type="lowercase" class="col-3"><svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-keyboard_icon_caps_unlock"></svg></span>
             <span data-type="char" class="col-2">Z</span>
             <span data-type="char" class="col-2">X</span>
             <span data-type="char" class="col-2">C</span>
@@ -166,7 +182,8 @@
             <span data-type="char" class="col-2">B</span>
             <span data-type="char" class="col-2">N</span>
             <span data-type="char" class="col-2">M</span>
-            <span data-type="backspace" class="col-3"><i class="iconfont icon-backspace"></i></span>
+            <span data-type="backspace" class="col-3"><svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-backspace1"></svg></span>
           </div>
           <div class="row">
             <span data-type="number" class="col-4">123</span>
@@ -175,5 +192,6 @@
           </div>
         </div> 
       </div>
+      <script src="./main.js"></script>
       </body>
     </html>

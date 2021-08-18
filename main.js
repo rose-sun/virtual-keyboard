@@ -37,7 +37,19 @@ $$('.keyboard .row > span').forEach($key => {
         setPage('number')
         break;
       case 'symbol':
-        setPage('symbol');
+        setPage('symbol')
+        break;
+      case 'backspace':
+        text = text.substr(0, text.length - 1)
+        $('.input').innerText = text
+        break;
+      case 'space':
+        text += ' '
+        $('.input').innerText = text
+        break;
+      case 'return':
+        text += '\n'
+        $('.input').innerText = text
         break;
     }
   }
